@@ -9,5 +9,5 @@
 2. 반복문을 통해 sum1이 sum2보다 더 크다면 queue1에서 queue2로, sum2가 sum1보다 더 크다면 queue2에서 queue1으로 수를 옮겨가며 같아지는 지점을 찾는다. 두 queue가 완전히 반전되는 상황에서도 두 queue의 합이 같아지는 지점을 찾지 못했다면 반복문을 종료한다.
 
 ## 시간 복잡도
-$$O(len(numbers)!)$$
+$$O(len(queue1)+len(queue2)))$$
 

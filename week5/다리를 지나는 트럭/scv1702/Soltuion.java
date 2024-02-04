@@ -46,6 +46,7 @@ class Solution {
                 }
             }
         }
+        
         return time;
     }
 }

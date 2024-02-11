@@ -20,6 +20,3 @@ def solution(storey):
         storey //= 10
 
     return answer
-
-print(solution(16))
-print(solution(2554))

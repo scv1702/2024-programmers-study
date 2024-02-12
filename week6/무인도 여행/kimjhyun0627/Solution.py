@@ -27,6 +27,3 @@ def solution(maps):
                 answer.append(days)
 
     return sorted(answer) if answer else [-1]
-
-print(solution(["X591X","X1X5X","X231X", "1XXX1"]))
-print(solution(["XXX","XXX","XXX"]))
